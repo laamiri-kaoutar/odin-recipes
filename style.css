@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+    color: rgb(219, 143, 71);
+    font-weight: bold;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 12px;
+    /* text-align: center; */
+}
+h1 {
+    color: rgb(211, 109, 13);
+    text-align: left;
+    font-size: 32px;
+}
+h2 {
+    color:#ae358e ;
+    margin-left: 0.5cm;
+}
+h3 {
+    color: #ca7bb5;
+    margin-left: 1.25cm;
+}
+img {
+    width: 350px;
+    height: auto;
+    text-align: left;
+}
+ul {
+    list-style: none;
+    text-align: justify;
+}
+
+.home-card {
+    background-color: rgb(247, 225, 204);
+}
+.end {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: rgb(182, 90, 4);
+    text-align: center;
+}
+.cooking-card {
+    background-color: #faeff7;
+}
+.cooking-card ol {
+    list-style-type: lower-greek;
+    margin-left: 1.5cm;
+}
+.cooking-card h2 {
+    text-align: center;
+   
+}
+.title {
+    background-color: #ae358e;
+    color: white;
+    background-clip: content-box;
+    text-align: center;
+} 
+.cooking-card .end {
+    color: #630b4a;
+}
