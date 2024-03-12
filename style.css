@@ -10,39 +10,62 @@ a {
     /* text-align: center; */
 }
 h1 {
-    color: rgb(211, 109, 13);
-    text-align: left;
-    font-size: 32px;
+    font-family: "Chewy", cursive ,sans-serif;
+    color: rgb(46, 125, 227);
+    /* text-align: left; */
+    font-size: 38px;
 }
 h2 {
     color:#ae358e ;
     margin-left: 0.5cm;
+    display:block;
 }
-h3 {
+h3 { 
     color: #ca7bb5;
     margin-left: 1.25cm;
 }
 img {
-    width: 350px;
+    float: right;
+    width: 300px;
     height: auto;
-    text-align: left;
+    margin: 0 auto;
+    border-radius: 0.5cm;
 }
 ul {
     list-style: none;
     text-align: justify;
+    background-color: #ffffff05;
+    border-radius: 6px;
 }
+footer {
+    position: relative;
+    bottom: 0;
+    padding: 15px;
+    font-size: x-large;
+    text-align: center;
+    color: #8f4f7e;
+    width: 100%;
+}
+/* body {
+    background-color: rgb(253, 242, 255);
+} */
 
-.home-card {
-    background-color: rgb(247, 225, 204);
-}
+/* .home-card {
+    background-color: rgb(254, 251, 157);
+} */
 .end {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
-    color: rgb(182, 90, 4);
+    position: fixed;
+    margin-bottom: 0 auto;
+    color: rgb(54, 127, 222);
     text-align: center;
 }
 .cooking-card {
-    background-color: #faeff7;
+    background-color: #f9f3f7;
+    border-style: dashed;
+    border-color: #d85ab4;;
+    border-radius: 12px;
 }
 .cooking-card ol {
     list-style-type: lower-greek;
@@ -53,7 +76,7 @@ ul {
    
 }
 .title {
-    background-color: #ae358e;
+    background-color: #8f4f7e;
     color: white;
     background-clip: content-box;
     text-align: center;
@@ -61,3 +84,37 @@ ul {
 .cooking-card .end {
     color: #630b4a;
 }
+.flix {
+    display: flex;
+    gap: 1cm;
+}
+.Description-card,
+.Ingredients-card {
+    margin: 6px;
+    background-color: #fff;
+    border-radius: 13px;
+    margin: 5px;
+    border: solid 5px #630b4a;
+}
+.links-list a {
+    background-color: rgb(176, 142, 110);
+    color: #fff;
+    text-decoration: none;
+    width:fit-content;
+    padding: 1em 2em;
+    margin: 2em auto;
+    border-radius: 6px;
+    display: block;
+  }
+  .links-list li {
+    background-color: rgb(240, 229, 218);
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .links-list a:hover {
+    background-color: rgb(192, 127, 66);
+    color: #fff;
+    border-radius: 13px;
+  
+  }
